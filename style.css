@@ -1,0 +1,49 @@
+  /* External css */
+
+h1{
+    font-family:stencil;
+    text-align: center;
+    background-color:lightyellow;
+    text-color:greyblack;
+    padding: 20px;
+}
+body {
+    border:solid 10px;
+    margin: 4px;
+    font-family: Arial, sans-serif;
+    background-color:lightblue;
+}
+@media(max-width:600px){
+body{ border:solid 10px;
+    margin: 4px;
+    font-family: Arial, sans-serif;
+    background-color:lightblue;
+    }
+ }
+
+.product1 { 
+    display: inline-block;  
+    width: 320px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.product1:hover{color:orange;
+box-shadow:0 15px 20px black;
+
+}
+.product3 {
+    display: inline-block; 
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.product3:hover{color:orange;
+box-shadow:0 15px 20px black;
+
+}
